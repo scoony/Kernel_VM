@@ -134,6 +134,6 @@ index ca9ed5774eb1..dae6f719cf84 100644
  	/* Zhaoxin Root/Downstream Ports */
  	{ PCI_VENDOR_ID_ZHAOXIN, PCI_ANY_ID, pci_quirk_zhaoxin_pcie_ports_acs },
 +	{ PCI_ANY_ID, PCI_ANY_ID, pcie_acs_overrides },
- 	{ 0 }
+ 	/* Wangxun nics */
  };
  
